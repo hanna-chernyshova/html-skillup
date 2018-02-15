@@ -1,0 +1,24 @@
+@media (min-width: 1000px) {
+  .main {
+    margin: -10vh 25% 0px;
+  }
+
+  .logo {
+    height: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;  
+  }
+
+  form {
+    width: 50%;
+  }
+
+  .contacts {
+    width: 15vw;
+    height: 30vh;
+    overflow: wrap;
+  }
+}

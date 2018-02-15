@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="icon" type="image/png" href="resources/mountain-leaf.png" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!-- <div class="parallax"></div> -->
+    <div class="container main">
+    <header class="row align-between">
+      <img src="resources/mountains.svg" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#flip-card">FLIPPING INFO</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#feedback">FEEDBACKS</a></li>
+          <li><a href="#contacts">CONTACT US</a></li>
+          <li><a href="#copyrights">COPYRIGHTS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="row align-between align-items-center">
+      <div class="text-center">
+        <h1>Hurry up!</h1>
+        <h3>Some random shit will end soon!</h3>
+        <div class="timer">
+          <p><span>Only </span> <span id="days"></span></p>
+          <span id="hours"></span>
+          <span id="minutes"></span>
+          <span id="seconds"></span>
+          <p>left</p>
+        </div>
+      </div>
+      <form class="container">
+          <img src="resources/default-avatar.jpg" alt="Avatar" class="avatar">      
+        <div>
+          <label><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <input type="checkbox" checked="checked"> <span>Remember me</span>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+    <!-- <div class="parallax"></div> -->
+
+    <div id="flip-card" class="container">
+      <div id="notecards" class="row align-between">
+        <div class="notecard">
+          <div class="front">
+            <div class="photo">
+              <img src="resources/fires.jpg" class="img-notecard">
+            </div>
+          </div>
+          <div class="back">
+            <span class="word">Hi there!</span>
+          </div>
+        </div>
+
+        <div class="notecard">
+          <div class="front">
+              <div class="photo">
+                  <img src="resources/sandwich.jpg" class="img-notecard">
+              </div>
+          </div>
+          <div class="back">
+              <span class="word">And also Hi here!</span>
+          </div>
+        </div>
+
+        <div class="notecard">
+          <div class="front">
+              <div class="photo">
+                  <img src="resources/greens.jpg" class="img-notecard">
+              </div>
+          </div>
+          <div class="back">
+              <span class="word">Hey, you are curious!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="parallax"></div> -->
+
+    <div id="gallery" class="container align-center">
+      <h2 class="text-center">Check other our photos here:</h2>
+      <div class="row align-center wrap">
+        <div class="relative-wrapper">
+          <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>
+          <img class="photo-gallery" src="/resources/forest.jpg">
+        </div>
+        <div class="relative-wrapper">
+          <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>    
+          <img class="photo-gallery" src="/resources/mist.jpg">
+        </div>
+        <div class="relative-wrapper">
+          <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>
+          <img class="photo-gallery" src="/resources/sun.jpg">
+        </div>
+        <div class="relative-wrapper">
+            <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>
+            <img class="photo-gallery" src="/resources/tree.jpg">
+        </div>
+        <div class="relative-wrapper">
+          <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>
+          <img class="photo-gallery" src="/resources/sun-tree.jpg">
+        </div>
+        <div class="relative-wrapper">
+          <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>
+          <img class="photo-gallery" src="/resources/sunrise.jpg">
+        </div>
+        <div class="relative-wrapper">
+          <div class="fade-info"><h2 class="text-center">Lorem morem</h2></div>
+          <img class="photo-gallery" src="/resources/dawn.jpg">
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="parallax"></div> -->
+
+    <div id="feedback">
+      <div class="container align-center">
+        <h2 class="text-center">Feedbacks:</h2>
+        <div class="feedback fade align-center">
+          <img src="/resources/avatar-pink.jpg" class="avatar">
+          <p class="text-center">1 / 3</p>
+          <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+             It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+          </p>
+        <div class="feedback fade align-center">
+          <img src="/resources/avatar-green.jpg" class="avatar">
+          <p class="text-center">2 / 3</p>
+          <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
+             or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+             anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, 
+             making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, 
+             to generate Lorem Ipsum which looks reasonable. 
+            The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+        </div>
+        <div class="feedback fade align-center">
+          <img src="/resources/avatar-purple.jpg" class="avatar">
+          <p class="text-center">3 / 3</p>
+          <p class="text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', 
+            making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, 
+            and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, 
+            sometimes on purpose (injected humour and the like).              
+              </p>
+        </div>
+        <div class="text-center">
+          <span class="dot" onclick="currentFeedback(1)"></span> 
+          <span class="dot" onclick="currentFeedback(2)"></span> 
+          <span class="dot" onclick="currentFeedback(3)"></span> 
+        </div>
+      </div> 
+    </div>
+
+    <div id="contacts">
+      <div class="container" >
+          <h2 class="text-center">Contacts</h2>
+          <div class="row align-between ">
+          <div class="contacts">
+            <p>(044) 374 03 83</p>
+            <p>0(800) 50 77 40</p>
+            <p>Ежедневно с 7:55 до 20:05</p>
+          </div>
+          <div id="map-canvas" style="width:30vw; height:30vh;">My map will go here</div>
+        </div>
+      </div> 
+    </div>
+
+    <div id="copyrights" class="container">
+      <footer class="row align-between" >
+          <h5>&copy; 
+            <script type="text/javascript">
+            document.write(new Date().getFullYear());
+            </script> All rights reserved
+          </h5>
+          <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-telegram"></a>
+          </div>
+      </footer>
+    </div>
+  </div>
+  <script src="timer.js"></script>
+  <script src="slider.js"></script>
+  <script src="map.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmM8Gn6Vv17rFx_MXSomfIBbNwAXtQ1Hc&callback=myMap"></script>
+  </body>
+</html>
